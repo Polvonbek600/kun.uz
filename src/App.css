@@ -1,38 +1,102 @@
-.App {
-  text-align: center;
+.p1{
+  font-size: 20px;
+  position: absolute;
+  left: 15px;
+  top: 5px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.b2{
   color: white;
+  border: 1px solid black;
+  background-color: black;
+  height: 10px;
+  border-radius:60% ;
+  
+}
+.ul1{
+  display: flex;
+  gap: 40px;
+  list-style-type: none;
+  position: absolute;
+  left: 100px;
+  top: 10px;
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  
+}
+.ul2{
+   display: flex;
+  gap: 20px;
+  list-style-type: none;
+  position: absolute;
+  left: 650px;
+  top: 10px;
+  font-size:18px ;
+}
+.ri-apple-fill{
+  font-size: 30px;
+}
+.apple{
+  display: flex;
+   position: absolute;
+  left: 850px;
+  width: 140px;
+  height: 50px;
+  border-radius: 10px;
+  
+  background-color: white;
+}
+.apple:hover{
+   color: blueviolet;
+   border:2px solid blueviolet;
+   position: absolute;
+   top: 12px;
+   box-shadow: 0 8px 5px rgb(88, 87, 85);
+}
+#p1{
+  font-size: 10px;
+
+}
+#p2{
+  font-size: 20px;
+  position: absolute;
+  left: 35px;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.play{
+  display: flex;
+   position: absolute;
+  left: 1000px;
+  top: 16px;
+  width: 140px;
+  height: 50px;
+  border-radius: 10px;
+  
+  background-color: white;
+}
+.ri-google-play-fill{
+  font-size: 30px;
+}
+.play:hover{
+   color: blueviolet;
+   border:2px solid blueviolet;
+   position: absolute;
+   top: 12px;
+   box-shadow: 0 8px 5px rgb(88, 87, 85);
+}
+#p1{
+  font-size: 10px;
+
+}
+#p3{
+  font-size: 20px;
+  position: absolute;
+  left: 25px;
+}
+ul{
+  list-style-type: none;
 }
